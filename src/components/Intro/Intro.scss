@@ -21,3 +21,15 @@
     transform: translate(-50%, -50%);
     color: white;
   }
+.text-to-type{
+&::after{
+  content: "|";
+  margin-left: 0.2rem;
+  @keyframes blink {
+    50%{
+      opacity: 0;
+    }
+  }
+  animation: blink 1s step-start infinite;
+}
+}
