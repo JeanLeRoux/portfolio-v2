@@ -6,7 +6,7 @@ import Services from './components/Services/Services';
 function App() {
   return (
     <div className="App">
-      {/* <Intro/> */}
+      <Intro/>
       <About/>
       <Services/>
     </div>
