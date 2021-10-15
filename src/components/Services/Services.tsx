@@ -33,11 +33,18 @@ const Services = () => {
   ];
   return (
     <div className="services-container">
-     {
+      <h1 className="heading">
+            &lt;<span className="code-tag">H1</span>&gt; SERVICES &lt;/
+            <span className="code-tag">H1</span>&gt;
+          </h1>
+      <div className="cards-container">
+      {
          services.map(service=>(
              <Card heading={service.heading} image={service.image} description={service.description}/>
          ))
      }
+      </div>
+
     </div>
   );
 };

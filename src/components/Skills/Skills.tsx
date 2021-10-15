@@ -42,6 +42,10 @@ const Skills = () => {
   ];
   return (
     <div className="skills-container">
+      <h1 className="heading">
+            &lt;<span className="code-tag">H1</span>&gt; SKILLS &lt;/
+            <span className="code-tag">H1</span>&gt;
+          </h1>
       {skillsData.map((skill) => (
         <div className="skill-content">
           <span className={"skill-heading"}>{skill.name}</span>

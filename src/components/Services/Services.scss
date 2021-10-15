@@ -4,8 +4,9 @@
     padding-bottom: 60px;
     padding-left: 10%;
     padding-right: 10%;
-    display: flex;
-    justify-content: space-between;
+    @media screen and (max-width: 1000px) {
+        padding-bottom: 30px;
+    }
 }
 
 .card{
@@ -15,6 +16,17 @@
     border-radius: 30px;
     display: flex;
     flex-direction: column;
+    @media screen and (max-width: 1000px) {
+        width: 50%;
+        margin-bottom: 30px;
+        align-self: center;
+    }
+    @media screen and (max-width: 800px) {
+        width: 70%;
+    }
+    @media screen and (max-width: 520px) {
+        width: 100%;
+    }
 }
 
 .card-image{
@@ -31,4 +43,13 @@
 .card-description{
     margin-top: 30px;
     color:#ffffff;
+    text-align: center;
+}
+
+.cards-container{
+    display: flex;
+    justify-content: space-between;
+    @media screen and (max-width: 1000px) {
+        flex-direction: column;
+    }
 }
