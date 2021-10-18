@@ -47,7 +47,7 @@ const Skills = () => {
             <span className="code-tag">H1</span>&gt;
           </h1>
       {skillsData.map((skill) => (
-        <div className="skill-content">
+        <div className="skill-content" data-aos="fade">
           <span className={"skill-heading"}>{skill.name}</span>
           <ProgressBar bgcolor={"#082032"} completed={skill.rating} />
         </div>

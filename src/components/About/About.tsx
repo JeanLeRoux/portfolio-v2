@@ -1,6 +1,7 @@
 import PersonalImage from "../../assets/personal.jpg";
 import "../About/About.scss";
 export default function About() {
+
   return (
     <div className="about-container">
       <div className="heading-container">
@@ -10,8 +11,8 @@ export default function About() {
         </h1>
       </div>
       <div className="about-content">
-        <img src={PersonalImage} alt="personal" className="personal-image" />
-        <div className="description-container">
+        <img data-aos="fade-right" src={PersonalImage} alt="personal" className="personal-image" />
+        <div data-aos="fade-left" className="description-container">
           <p className="text">
             I am willing to learn and can adapt to any situation. My greatest
             personal trait is that I love solving problems and I persevere until

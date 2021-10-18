@@ -9,8 +9,8 @@
     }
 }
 
-.card{
-    width: 26%;
+.service-card{
+    width: 30%;
     background-color: #2C394B;
     padding: 3%;
     border-radius: 30px;
@@ -29,24 +29,24 @@
     }
 }
 
-.card-image{
+.services-card-image{
     width: 80%;
     align-self: center;
 }
 
-.card-heading{
+.services-card-heading{
     color:#ffffff;
     align-self: center;
     margin-bottom: 30px;
 }
 
-.card-description{
+.services-card-description{
     margin-top: 30px;
     color:#ffffff;
     text-align: center;
 }
 
-.cards-container{
+.services-cards-container{
     display: flex;
     justify-content: space-between;
     @media screen and (max-width: 1000px) {

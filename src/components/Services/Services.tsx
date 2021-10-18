@@ -37,7 +37,7 @@ const Services = () => {
             &lt;<span className="code-tag">H1</span>&gt; SERVICES &lt;/
             <span className="code-tag">H1</span>&gt;
           </h1>
-      <div className="cards-container">
+      <div className="services-cards-container">
       {
          services.map(service=>(
              <Card heading={service.heading} image={service.image} description={service.description}/>
