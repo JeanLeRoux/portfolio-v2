@@ -10,7 +10,7 @@ import Footer from "./components/Footer/Footer";
 import { Container, Nav } from "react-bootstrap";
 import Navbar from 'react-bootstrap/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Logo from "../src/assets/logo.png";
+// import Logo from "../src/assets/logo.png";
 
 function App() {
   const [navBackground, setNavBackground] = useState(false)
